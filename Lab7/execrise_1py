@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar  2 20:08:46 2021
+
+@author: maolasirzul
+Description: Maps insert running time
+"""
+import time
+
+start_time = time.time()
+stop_time = time.time()
+
+#Creating a empty list
+x = {}
+x['Shain']=24
+
+print(x)
+print("\nRunning time is :", stop_time, x)
+y = {'Raz':18, 'Sajin':20, 'Rakib': 21, 'Sohail':20, 'Alvee':21}
+y['Siam']= 21
+print(y)
+print("\nRunning time is :", stop_time, y)
+
